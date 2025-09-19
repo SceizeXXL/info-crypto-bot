@@ -1,0 +1,6 @@
+# Ignorer les clés sensibles
+keys.json
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
