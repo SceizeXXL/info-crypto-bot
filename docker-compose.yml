@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  crypto-bot:
+    build: .
+    container_name: info-crypto-bot
+    volumes:
+      - ./src:/app/src
+      - ./keys.json:/app/keys.json:ro
+    working_dir: /app
